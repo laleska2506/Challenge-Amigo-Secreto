@@ -1,1 +1,9 @@
-// El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
+//declaramos el array
+let amigos = [];
+
+function agregarAmigo(){
+    //definimos la variable var
+    //documento.getElementById.value = ayuda a traer el valor del id 
+    var amigoIngresado = document.getElementById("amigo").value;
+    console.log(amigoIngresado);
+}
