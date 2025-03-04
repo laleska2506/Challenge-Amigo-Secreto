@@ -1,5 +1,5 @@
-<h1 align="center"> Amigo Secreto </h1>
-![LOGO_Amigo](https://github.com/user-attachments/assets/215cadf2-5441-4746-acd3-1037c5084609)
+# Amigo Secreto
+![Vista Principal](assets/LOGO_Amigo.png)
 <p align="left">
    <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
 </p>
@@ -10,31 +10,10 @@ _Desarrollo de una aplicación que permita a los usuarios ingresar nombres de am
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-Mira **Deployment** para conocer como desplegar el proyecto.
-
-
-### Pre-requisitos 📋
-
-_Que cosas necesitas para instalar el software y como instalarlas_
-
-```
-Da un ejemplo
-```
-
 ### Instalación 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
-_Dí cómo será ese paso_
-
-```
-Da un ejemplo
-```
-
-_Y repite_
-
-```
-hasta finalizar
+```sh
+git clone https://github.com/laleska2506/Challenge-Amigo-Secreto.git
 ```
 
 _Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
@@ -46,25 +25,22 @@ _Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para 
 - `Visualizar la lista`: Los nombres ingresados aparecerán en una lista debajo del campo de entrada.
 - `Sorteo aleatorio`: Al hacer clic en el botón "Sortear Amigo", se seleccionará aleatoriamente un nombre de la lista y se mostrará en la página.
 
-## Despliegue 📦
+## Capturas 📦
+![Vista Principal](assets/Inicio.png) 
+![Vista Principal](assets/Resultado.png)  
 
-_Agrega notas adicionales sobre como hacer deploy_
+### 5️⃣ **🛠️ Tecnologías Utilizadas**  
 
-## Construido con 🛠️
-
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+- HTML5  
+- CSS3  
+- JavaScript  
 
 ## Autores ✒️
 
 * **Laleska Arroyo** - *Trabajo Inicial* - [laleska](https://github.com/laleska2506)
 
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+## 📜 Licencia  
+Este proyecto está bajo la licencia MIT - consulta el archivo [LICENSE](LICENSE) para más detalles.
 
 ## Expresiones de Gratitud 🎁
 
