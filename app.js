@@ -15,6 +15,7 @@ function agregarAmigo(){
             amigos.push(amigoIngresado);
             console.log(amigos);
             mostrarAmigo();
+            limpiarInput();
         }
     }
 }
@@ -28,4 +29,8 @@ function mostrarAmigo(){
         li.textContent = amigos[i];     //soloo agrego un nombre a la vez
         mostrarAmigo.appendChild(li);
     }
+}
+
+function limpiarInput() {
+    document.querySelector('#amigo').value = '';
 }
