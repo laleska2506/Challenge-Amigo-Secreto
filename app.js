@@ -6,16 +6,16 @@ function agregarAmigo(){
     //documento.getElementById.value = ayuda a traer el valor del id 
     var amigoIngresado = document.getElementById("amigo").value;
 
-    if(amigoIngresado === ''){
+    if(amigoIngresado === ''){  //no vacios
         alert("Debes ingresar un nombre");
     }else{
         if (amigos.includes(amigoIngresado)){
             alert("Ese amigo ya fue ingresado. Ingrese uno nuevo");
         } else{
+            //ingresamos a la lista
             amigos.push(amigoIngresado);
-            console.log(amigos);
-            mostrarAmigo();
-            limpiarInput();
+            mostrarAmigo(); //mostramos al amigo
+            limpiarInput(); //limpiamos el input
         }
     }
 }
@@ -27,10 +27,15 @@ function mostrarAmigo(){
     for (let i = 0; i< amigos.length;i++){
         let li = document.createElement("li");   //crea elemtno li
         li.textContent = amigos[i];     //soloo agrego un nombre a la vez
-        mostrarAmigo.appendChild(li);
+        mostrarAmigo.appendChild(li);   //agregamos a la lista para que se muestre
     }
 }
 
 function limpiarInput() {
-    document.querySelector('#amigo').value = '';
+    document.querySelector('#amigo').value = '';        //tomamos el id del input y le seteamos el valor ''
 }
+
+//eliminamos los numeros
+document.getElementById("amigo").addEventListener("input", function () {
+   this.value = this.value.replace(/[0-9]/g, ''); 
+});
