@@ -39,3 +39,10 @@ function limpiarInput() {
 document.getElementById("amigo").addEventListener("input", function () {
    this.value = this.value.replace(/[0-9]/g, ''); 
 });
+
+function sortearAmigo() {
+    let numeroMaximo = amigos.length
+    let numeroAmigo = Math.floor(Math.random()*numeroMaximo)+1;
+    console.log(amigos[numeroAmigo]);
+    return amigos[numeroAmigo];
+}
